@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    box-shadow: 5px 5px 5px 0px rgba(0,0.3,0.3,0.3);
+    filter: drop-shadow(5px 5px 5px rgba(0,0.3,0.3,0.3));
+}
+
+.form-wrapper{
+    width: 400px;
+    height: 450px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px 0px 0px 25px;
+}
+
+.wrapper{
+    display: flex;
+    width: 800px;
+    height: 450px;
+    justify-content: left;
+    border-radius: 25px;
+    align-items: center;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,41,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login{
+    font-weight: bolder;
+}
+
+.input{
+    width: 250px;
+    height: 30px;
+    margin: 10px;
+}
+
+.icon{
+    width: 25px;
+}
+
+.input-field{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-media{
+    display: flex;
+    margin: 25px;
+}
+
+.facebook{
+    border: 1px solid black;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-left: 5px;
+}
+
+.facebook:hover{
+    background-color: blue;
+    color: white;
+    border: none;
+}
+
+.login-please{
+    color: white;
+}
+
+.grid{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+}
+
+.c-butt:hover{
+    scale: 1.2;
+}
